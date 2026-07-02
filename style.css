@@ -515,6 +515,22 @@ body {
     color: var(--gold);
 }
 
+.timeline-achievement {
+    margin-top: 16px;
+    padding: 12px 16px;
+    background: rgba(226, 176, 74, 0.08);
+    border-left: 3px solid var(--gold);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    font-size: 0.85rem;
+    color: var(--gold-light);
+    line-height: 1.6;
+}
+
+.timeline-achievement i {
+    color: var(--gold);
+    margin-right: 8px;
+}
+
 /* ===== Projects Section ===== */
 .projects {
     padding: 80px 0;
