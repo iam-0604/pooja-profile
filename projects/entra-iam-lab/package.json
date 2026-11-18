@@ -1,0 +1,16 @@
+{
+  "name": "futurebank-entra-sso-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Microsoft Entra ID OIDC SSO hands-on lab",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^3.8.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1"
+  }
+}
